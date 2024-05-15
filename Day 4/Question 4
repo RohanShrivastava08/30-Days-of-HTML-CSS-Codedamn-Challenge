@@ -1,0 +1,14 @@
+Figure Tag Lab
+
+In this lab, you have to create a figure element with an image and a caption.
+The figure attribute is used to visually group different elements together as a single unit.
+
+Images, illustrations, graphs, or any other visual content can be placed inside a figure element.
+The figcaption element represents a caption or a legend associated with a figure.
+
+Challenges:
+
+1. Create a figure element with the attribute id set to 'myFigure'.
+2. Add an image img to the figure with id set to 'figureImage' and set src any online image of your choice
+3. Add a figcaption element to the figure with the id set to 'myCaption' and set the text of the figcaption of your choice
+4. Create a CSS rule to set the font style of '#myCaption' to italic.
