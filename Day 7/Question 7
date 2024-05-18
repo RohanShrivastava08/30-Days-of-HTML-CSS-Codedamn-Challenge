@@ -1,0 +1,39 @@
+CSS Text Shadow Lab
+
+In this lab, we aim to gain a hands-on understanding of the CSS text-shadow property. We will achieve this by creating an HTML page with a heading that has a particular text shadow effect applied to it. This effect provides a shadow of color #5f5f5f, has a horizontal and vertical offset of 2px, and a blur radius of 4px. The heading's text color will be set to #ef534f.
+
+Concepts
+Briefly, the concepts required to complete this lab includes understanding the CSS text-shadow property and how to apply it to HTML elements.
+Also, you need to know how to manipulate the color of text using CSS.
+The text-shadow CSS property applies a shadow to text. This property requires four values:
+The horizontal-offset which tells the horizontal distance of the shadow from the text.
+The vertical-offset gives the vertical distance of the shadow.
+blur-radius controls the amount of blur.
+The color of the shadow.
+The color property in CSS dictates the color of an HTML element, in our case, a text element.
+
+Steps
+Here's how to reach our outlined goal:
+Create a basic HTML structure with an html, head, and body tags.
+Inside the body tag, add an h1 tag with the id main-heading.
+Set the content of the h1 tag to 'Codedamn CSS Lab'.
+Inside the head tag, create a style tag.
+Within this style tag, target your h1 tag using the id main-heading.
+Now, apply a text-shadow effect to this heading.
+Make sure that your shadow's color is #5f5f5f and the horizontal and vertical offset is 2px.
+Don't forget to set the blur radius to 4px.
+Next, change the text color of your main heading to #ef534f.
+
+Examples
+Here's a basic example of applying text-shadow property:
+h1 {
+	 text-shadow: 2px 2px 2px blue;
+}
+In the example above, we have applied a text-shadow of color blue, with a horizontal and vertical offset of 2px to the h1 tag.
+
+
+Hints
+Remember, all relevant styles should be placed within the style tag in the head of your HTML.
+To set the color of your text, use the color property.
+Don't forget to use the # before your color values, they represent hexadecimal colors in CSS.
+Blur radius in the text-shadow property is optional. If you don't specify it, the shadow will be sharp.
