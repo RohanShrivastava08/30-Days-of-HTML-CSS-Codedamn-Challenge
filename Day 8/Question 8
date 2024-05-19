@@ -1,0 +1,20 @@
+Text-Overflow Property Lab
+
+In this lab, you will work with the text-overflow CSS property to handle overflowing text inside a fixed-width container.
+You need to demonstrate various aspects of handling overflowing text like hiding the excess text and showing ellipsis 
+(...) when the text overflows the container.
+
+To achieve this, you will follow these tasks:
+
+Add some long text to a paragraph element with id 'text'
+Create a div container with id 'container' and set its width to 300px
+Set the paragraph's white-space property to nowrap to prevent text from wrapping
+Apply the text-overflow: ellipsis and overflow: hidden properties to the paragraph to hide the overflowing text and show ellipsis
+Note: You can use inline CSS or create a separate CSS file to apply styles to elements.
+
+Challenges:
+
+Add text to the paragraph with id 'text' that is longer than the container's width
+Add a container div with id 'container' and a fixed width of 300px
+Add 'white-space: nowrap' to the paragraph
+Apply 'text-overflow: ellipsis' to the paragraph and hide the overflowing content
