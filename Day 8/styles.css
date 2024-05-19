@@ -1,0 +1,10 @@
+/* Add your styles here */
+#container {
+    width: 300px;
+  }
+
+  #text {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
