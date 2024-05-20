@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700;600;&display=swap");
+
+/* #18181b - NavBar Background Color */
+
+/* #a1a1aa - Text Color */
+
+/* Get Started Button Bg color - #5046e5 */
+
+body {
+	font-family: "Inter", sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+h2 {
+	font-weight: 600;
+	font-family: "Inter", sans-serif;
+}
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #18181b; /* NavBar Background Color */
+	padding: 10px 20px;
+}
+
+#company {
+	display: flex;
+	align-items: center;
+}
+
+#company svg {
+	margin-right: 10px;
+}
+
+#company h2 {
+	font-size: 1.5em;
+	margin: 0;
+	color: #a1a1aa; /* Text Color */
+	font-weight: 600;
+}
+
+#nav-links {
+	display: flex;
+	gap: 20px;
+}
+
+#nav-links a {
+	text-decoration: none;
+	color: #a1a1aa; /* Text Color */
+	font-weight: 600;
+}
+
+#buttons {
+	display: flex;
+	gap: 10px;
+}
+
+#buttons button {
+	background-color: #5046e5; /* Get Started Button Bg color */
+	color: white;
+	border: none;
+	padding: 10px 20px;
+	border-radius: 5px;
+	cursor: pointer;
+	font-weight: 600;
+}
+
+#buttons button:hover {
+	background-color: #3b37bd; /* Slightly darker shade for hover effect */
+}
