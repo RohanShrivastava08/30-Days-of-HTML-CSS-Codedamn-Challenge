@@ -1,0 +1,19 @@
+Grid Template Rows and Columns
+
+In this lab, you will create a 3x3 grid using CSS Grid Layout.
+To achieve this, you have to create a container div element with id 'grid-container' and apply the CSS Grid properties to it.
+You will learn about grid-template-rows and grid-template-columns to create rows and columns inside the grid container.
+You will also create 9 child divs and style them with border, background-color, and aligned text.
+This lab will help you understand the basic concept of how to create a grid layout using CSS Grid properties.
+
+Concepts used in this lab:
+CSS Grid Layout
+grid-template-rows
+grid-template-columns
+Basic CSS styling
+
+Challenges:
+Create a container div with id 'grid-container' and apply display: grid style to it.
+Add 3 rows and 3 columns to the grid container using grid-template-rows and grid-template-columns.
+Add 9 child divs to the grid container and add class 'grid-item' to each child.
+Style the grid items with border, background-color, and aligned text.
