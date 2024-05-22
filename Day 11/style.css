@@ -1,0 +1,33 @@
+/* 
+List of colors used 
+background color of the element : cyan
+*/
+.container {
+    position: relative;
+    width: 250px;
+    height: 400px;
+    background-color: cyan;
+    border: 1px solid #ccc;
+}
+
+.overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5); /* Overlay color with opacity */
+    opacity: 0;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px; /* Rounded corners for the overlay */
+    transition: opacity 0.3s ease; /* Smooth transition effect */
+}
+
+.container:hover {
+    background-color: lightcoral; /* New background color on hover */
+}
+
+.container:hover .overlay {
+    opacity: 1; /* Show overlay on hover */
+}
