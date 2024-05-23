@@ -1,0 +1,18 @@
+Login Page
+
+In this exercise lab, you would have to try and replicate the codedamn's login page design.
+
+The main compoenents of this login page design are
+Heading (already built for you)
+Input Fields & Forgot Password
+Sign up Button
+OAuth Buttons
+Recaptcha Privacy Policy Text
+
+Challenges:
+Create a HTML Form element
+Create Inputs & Labels for the username and password fields & style them with proper width, border radius etc.
+Create a flex element for Remember me and forgot password text
+Create a spacer for text "or continue with"
+Create buttons for OAuth elements and add SVG's from the assets folder
+Add a recaptcha privacy policy text at the bottom of the form
