@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700;600;&display=swap");
+
+body {
+    font-family: "Inter", sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f3f4f6;
+}
+
+.profile-header {
+    width: 100%;
+    max-width: 400px;
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.cover-image img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.profile-info {
+    padding: 20px;
+    text-align: center;
+}
+
+.profile-image img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 5px solid white;
+    margin-top: -60px;
+    background-color: #f3f4f6;
+}
+
+.profile-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.contact-btn {
+    padding: 10px 20px;
+    border: 1px solid #d1d5db;
+    border-radius: 5px;
+    background-color: white;
+    color: #111827;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.contact-btn:hover {
+    background-color: #f3f4f6;
+}
+
+@media (max-width: 500px) {
+    .profile-header {
+        margin: 20px;
+    }
+}
+/* 
+List of colors used 
+
+Text color : #111827 
+Border color (Buttons) : #d1d5db
+Svg Icons : #9ca3af 
+
+*/
