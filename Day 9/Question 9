@@ -1,0 +1,19 @@
+Codedamn Nav Bar
+
+In this lab, you are tasked to build the basic NavBar that is shown on codedamn's Landing Page.
+
+The NavBar Consists of the parts
+Name (left most part)
+Nav Links (center)
+Buttons (right most part)
+
+Follow the given design from the design image and build the layout.
+
+NOTE: This is a self assessed lab. There are no test cases available for this exercise lab. You would have to manually check the challenges when you're done.
+
+Challenges:
+There should be <nav> element on the HTML document for the NavBar
+The NavBar should consist of three sections that are spaced evenly between the elements
+The first section with id #company should consists of two elements, codedamn Logo and the text codedamn
+Text codedamn should use inter font. (Already imported in CSS)
+The colours mentioned in the style.css file are used for the navigation bar
