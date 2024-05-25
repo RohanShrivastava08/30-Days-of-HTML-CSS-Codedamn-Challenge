@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700;600;&display=swap");
+
+body {
+    font-family: "Inter", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f3f4f6;
+}
+
+.background {
+    padding: 20px;
+    text-align: center;
+}
+
+h3 {
+    color: #111827;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.cards-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-title {
+    color: #111827;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.card-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.numbers {
+    display: flex;
+    flex-direction: column;
+}
+
+.current-number {
+    color: #4f46e5;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.previous-number {
+    color: #6b7280;
+    font-size: 14px;
+}
+
+.percentage {
+    font-size: 16px;
+    font-weight: bold;
+    padding: 2px 8px;
+    border-radius: 12px;
+}
+
+.percentage.positive {
+    color: #22c55d;
+    background-color: #dcfce7;
+}
+
+.percentage.negative {
+    color: #ef4444;
+    background-color: #fee2e2;
+}
+
+/* Responsive Design */
+@media (min-width: 600px) {
+    .cards-container {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .card {
+        flex: 1;
+        max-width: 300px;
+        margin: 10px;
+    }
+}
+/* 
+List of colors used 
+
+Heading & Card Heading - #111827
+Background color - #f3f4f6 
+Description, Text color - #6b7280 
+Number / Percentage color - #4f46e5
+
+Green Chip Background - #dcfce7 
+Green Arrow color - #22c55d
+Green Text color - #407f54
+
+Red Chip Background - #fee2e2
+Red Arrow Color - #ef4444
+Red Text Color - #991b1b
+
+
+
+
+*/
