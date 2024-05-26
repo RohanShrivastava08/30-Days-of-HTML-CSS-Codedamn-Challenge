@@ -1,0 +1,24 @@
+Responsive Pricing Card
+
+In this lab, you are tasked to build the basic pricing card template that can be used in simple landing page designs.
+The Pricing card contains
+Heading & Sub-heading
+Inner card with
+a. Heading & Description
+b. Feature Points
+c. Price Card with Price and Button
+
+Follow the given design from the design image and build the layout.
+
+NOTE: This is a self assessed lab. There are no test cases available for this exercise lab.
+You would have to manually check the challenges when you're done.
+
+Challenges:
+Create the heading and the subheading
+Create the pricing card div and style with background and border radius
+Create the heading the description for the pricing card
+Make the card div flex container for details and the pricing card
+Create the what's included section and add the feature list using the check svg icon
+Create the inner pricing card and style it
+Add the header, price and the button
+Make the card responsive for the mobile design
