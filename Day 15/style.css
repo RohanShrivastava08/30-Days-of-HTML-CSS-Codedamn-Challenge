@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700;600;&display=swap");
+
+
+body {
+	font-family: "Inter", sans-serif;
+	background-color: #F9FAFB;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	margin: 0;
+  }
+  
+  .container {
+	text-align: center;
+  }
+  
+  h2 {
+	color: #111827;
+  }
+  
+  .sub-heading {
+	color: #4B5563;
+	margin-bottom: 20px;
+  }
+  
+  .card {
+	display: flex;
+	background: white;
+	border-radius: 8px;
+	overflow: hidden;
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-left, .card-right {
+	padding: 20px;
+  }
+  
+  .card-left {
+	flex: 2;
+	text-align: left;
+  }
+  
+  .card-left h3 {
+	color: #111827;
+  }
+  
+  .description {
+	color: #6B7280;
+	margin: 10px 0;
+  }
+  
+  .features p {
+	color: #4B5563;
+	margin: 5px 0;
+  }
+  
+  .features p .checkmark {
+	color: #10B981; /* Green color for the checkmark */
+	margin-right: 8px;
+  }
+  
+  .card-right {
+	flex: 1;
+	background: #F3F4F6;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+  }
+  
+  .price {
+	font-size: 24px;
+	font-weight: 700;
+	color: #111827;
+  }
+  
+  .price span {
+	font-size: 16px;
+	font-weight: 400;
+  }
+  
+  .btn {
+	background-color: #1F2937;
+	color: white;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	margin: 20px 0;
+  }
+  
+  .sample {
+	color: #6B7280;
+  }
+
+/* 
+List of colors used 
+
+Heading - #111827
+Sub Heading - #4B5563
+Background color - #F9FAFB
+Card's Right Section Background - #F3F4F6 
+Text's Color - #6B7280
+What's Included Horizontal line - #E5E7EB
+What's Included Text - #4F46E5
+Button Background - #1F2937
+*/
