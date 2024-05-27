@@ -1,0 +1,21 @@
+Instagram Post
+In the Exercise Lab, your goal is to build an Instagram Post as per the given design.
+
+The Given Instagram Post consits of 4 sections
+Header
+Image
+ToolBar
+Description
+Your task is to replicate the design of the Instagram post from the given design Image.
+
+NOTE:Please note that this is a non evaluative lab. You would have to manually check the challenges yourself, when you are done.
+
+Challenge:
+Create a #header div. It should consists of two child elements. #name which holds the name of user & #options
+icon which gives users access to check various options
+Create a #image div. This div contains a single child element <img> which points to the given image source
+Create a #toolbar div, which consists of two sections to span the icons to the side edges of the post
+The left side of toolbar contains like, comment and transfer icons
+The right of the toolbar should contain the bookmark icon
+Create a #description div to display the text
+Use the font Cabin for displaying text on the page. (The font is already imported in CSS file)
