@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700;600;&display=swap");
+
+body {
+	font-family: "Inter", sans-serif;
+}
+
+.form-component {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #f5f5f5;
+	border: 1px solid #ccc;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+.radio-group {
+	margin: 0 10px;
+	position: relative;
+}
+
+input[type="radio"] {
+	display: none;
+}
+
+label {
+	display: inline-block;
+	padding: 10px 20px;
+	cursor: pointer;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	background-color: white;
+	transition: background-color 0.3s ease;
+}
+
+input[type="radio"]:checked + label {
+	background-color: lightblue;
+}
+/* 
+List of colors used 
+button active color: lightblue 
+border: #ccc 
+segment switch background color: #f5f5f5
+
+*/
