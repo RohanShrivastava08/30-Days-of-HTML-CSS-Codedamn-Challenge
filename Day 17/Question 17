@@ -1,0 +1,18 @@
+Segment Switch Component
+
+In this lab, you have to create a simple segment switch component using radio buttons.
+On clicking on any of the buttons the following button should be selected,
+the selection is depicted by chainging the background color to lightblue from #ccc
+This lab does not require any JavaScript and can done just using HTML & CSS.
+
+NOTE: This is a self assessed lab. There are no test cases available for this exercise lab.
+You would have to manually check the challenges when you're done.
+
+Challenge:
+Create a simple form component
+Create a three separate divs inside the form component
+Each div component contains a input element of type radio and a label coponent with the name of the radio button
+Set up name, id, for attributes in input and label elements
+Hide the radio buttons using CSS
+Add the background color and the lables by default
+Use :checked pseudo class to change the background color
