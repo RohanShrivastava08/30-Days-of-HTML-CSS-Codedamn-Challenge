@@ -1,0 +1,17 @@
+Disable Text Selection
+
+In this lab, you would have to make the give article element non-selectable using the cursor.
+You would be learning about user-select property.
+user-select
+By default user-select value is set to auto for all userAgents (Browsers).
+To make the text unselectable we have to change the value of this property to none .
+This should do the trick, this will stop any users from selecting text on your web page.
+
+Uh Oh! It doesn't work on Safari!
+All the browsers by default do not support thisuser-select property to ensure cross-compatability (the features works across different browsers)
+,we need to add a webkit property.
+Webkit is the rendering engine used in the Safari Browser. Whereas Blink in the rendering engine used in Chromium based browsers.
+
+Challenges:
+Verify that the text is not selectable by double clicking
+Verify that the text is not selectable by dragging for a selection
