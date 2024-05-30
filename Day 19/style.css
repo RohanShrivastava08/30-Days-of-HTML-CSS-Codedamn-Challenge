@@ -1,0 +1,4 @@
+/* make the odd rows of the table lightgray */
+table tr:nth-child(odd) {
+    background-color: lightgray;
+}
