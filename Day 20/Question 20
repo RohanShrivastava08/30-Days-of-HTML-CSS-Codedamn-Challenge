@@ -1,0 +1,10 @@
+Tooltip Challenge
+
+In this lab, you would have to build a tooltip by just using HTML & CSS,
+without the user any external libraries.
+The tooltip would be visible when hovered over a button and then disappear when the button is not hovered anymore.
+
+Challenges:
+Create a simple #button button element in HTML
+When the hover on the #button is triggered there should be a small tooltip below the button indicating that it is a tooltip
+[Extra] Try and create a small triangle for the tooltip, to resemble to an actual mobile tooltip
