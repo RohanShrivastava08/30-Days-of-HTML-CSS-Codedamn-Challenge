@@ -1,0 +1,16 @@
+Blog Section
+In this lab, you are tasked to build a simple blog section.
+
+The component contains the following components:
+Title & Description
+Blog Card
+a. Image
+b. Title & Description
+c. Profile
+
+Challenges:
+Create the main section component for the blog section
+Add the title and the description of the news
+Create a .blog-card component
+The .blog-card component should contain all the elements as mentioned in the card component
+Make the component responsive by making them a flex container.
