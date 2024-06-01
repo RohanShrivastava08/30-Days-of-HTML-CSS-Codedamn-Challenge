@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700;600;&display=swap");
+
+body {
+    font-family: "Inter", sans-serif;
+    background-color: #f9fafb;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.blog-section {
+    width: 90%;
+    max-width: 1200px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.title-description {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.title-description h1 {
+    font-size: 2.5em;
+    color: #111827;
+    margin: 0;
+}
+
+.title-description p {
+    color: #6b7280;
+    font-size: 1em;
+    margin: 10px 0 0;
+}
+
+.blog-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.blog-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    overflow: hidden;
+    flex: 1 1 calc(33.333% - 20px);
+    display: flex;
+    flex-direction: column;
+}
+
+.blog-card img {
+    width: 100%;
+    height: auto;
+}
+
+.card-content {
+    padding: 20px;
+}
+
+.blog-title {
+    color: #4f46e5;
+    font-size: 1.25em;
+    margin: 0 0 10px;
+}
+
+.blog-description {
+    color: #6b7280;
+    font-size: 0.95em;
+    margin: 0 0 20px;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+}
+
+.profile img {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.profile p {
+    margin: 0;
+    color: #6b7280;
+    font-size: 0.85em;
+}
+
+.profile span {
+    display: block;
+    font-size: 0.75em;
+    color: #9ca3af;
+}
+
+@media (max-width: 768px) {
+    .blog-card {
+        flex: 1 1 100%;
+    }
+}
+/* 
+List of colors used 
+
+Title / Heading - #111827 
+Blog Title - #4f46e5 
+Description - #6b7280 
+
+
+*/
