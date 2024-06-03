@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700;600;&display=swap");
+
+body {
+	font-family: "Inter", sans-serif;
+	display: flex;
+}
+
+.sidebar {
+	width: 250px;
+	background-color: #f4f4f5;
+	padding: 20px;
+}
+
+.title-section {
+	margin-bottom: 20px;
+}
+
+.title {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 1.25em;
+	color: #18181b;
+}
+
+.pro-badge {
+	background-color: #fee2e1;
+	color: #1f1f1f;
+	border-radius: 8px;
+	padding: 5px 10px;
+	font-weight: bold;
+	font-size: 0.75em;
+}
+
+.main-nav ul,
+.bottom-nav ul {
+	list-style: none;
+	padding: 0;
+}
+
+.nav-item {
+	display: flex;
+	align-items: center;
+	padding: 10px;
+	color: #52525b;
+	cursor: pointer;
+	transition: background-color 0.3s;
+}
+
+.nav-item:hover {
+	background-color: #e8e8e9;
+	border-radius: 8px;
+}
+
+.nav-item .icon {
+	width: 24px;
+	height: 24px;
+	margin-right: 10px;
+	color: inherit;
+}
+
+.nav-item span {
+	flex-grow: 1;
+}
+
+/* 
+List of colors used 
+
+Background color: #f4f4f5 
+Text color : #52525b 
+Title (codedamn) color : #18181b
+Pro Badge Bg color : #fee2e1 
+Pro Dot / Text color: #1f1f1f 
+Hover background color : #e8e8e9
+*/
