@@ -1,0 +1,35 @@
+/* 
+
+This challenge does not contain any specific colors for the challenge. 
+/* Base styles for the nav bar */
+.mobile-nav {
+    display: none; /* Hide by default */
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0 -1px 5px rgba(0, 0, 0, 0.1);
+    border-top: 1px solid #ccc;
+    z-index: 1000;
+}
+
+.mobile-nav .nav-link {
+    flex: 1;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.mobile-nav .nav-link svg {
+    fill: #555;
+    width: 24px;
+    height: 24px;
+}
+
+/* Make nav visible on small screens */
+@media (max-width: 640px) {
+    .mobile-nav {
+        display: flex;
+        justify-content: space-around;
+    }
+}
+*/
