@@ -1,0 +1,23 @@
+/* style.css */
+.marquee {
+    position: relative;
+    overflow: hidden;
+    width: 100%; /* Adjust the width as needed */
+    border: 1px solid black;
+    white-space: nowrap;
+  }
+  
+  .marquee p {
+    display: inline-block;
+    padding-left: 100%; /* Start position of the animation */
+    animation: scroll-left 15s linear infinite;
+  }
+  
+  @keyframes scroll-left {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
