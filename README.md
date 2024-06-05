@@ -1,13 +1,10 @@
 # 30-Days-of-HTML-CSS---Codedamn-Challenge!
-![30 Days Challenge HTML   CSS](https://github.com/RohanShrivastava08/30-Days-of-HTML-CSS-Codedamn-Challenge/assets/94133270/58e9d0de-eb85-409a-9f86-d08cbf973327)
-
-
-# 30 Days of HTML & CSS - Codedamn Challenge
 
 -  Welcome to the 30 Days of HTML & CSS - Codedamn Challenge! 
 
 - This repository contains a series of daily coding exercises designed to help you master HTML and CSS in a structured, incremental manner.
-
+- 
+![30 Days Challenge HTML   CSS](https://github.com/RohanShrivastava08/30-Days-of-HTML-CSS-Codedamn-Challenge/assets/94133270/58e9d0de-eb85-409a-9f86-d08cbf973327)
 
 ## Acknowledgements
 
