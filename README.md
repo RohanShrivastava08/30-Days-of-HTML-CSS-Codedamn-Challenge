@@ -70,7 +70,7 @@ Day 30: Final Project - Build a Portfolio Website
  
 ## Clone the repository:
 
-```bash
+```sh
  git clone https://github.com/yourusername/30-Days-of-HTML-CSS-Codedamn-Challenge.git
 ```
 
