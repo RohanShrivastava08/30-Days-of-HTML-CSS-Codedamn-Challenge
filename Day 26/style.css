@@ -1,0 +1,13 @@
+	/* Add styles for background image */	
+
+	body { 
+		background-color: #747a40;
+	 }
+	 
+	 div{ 
+		background: url("pineapple-icon.svg");
+		background-size: 20px; 
+		width: 100em;
+		height: 100em; 
+		}
+
