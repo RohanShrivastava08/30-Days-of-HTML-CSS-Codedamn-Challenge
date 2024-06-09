@@ -1,0 +1,19 @@
+Animated Progress Bar
+
+In this lab, you have to create a simple animated progress bar.
+
+The HTML code for the lab is already written for you.
+You have to write the CSS code for the animation using animation property and @keyframes
+The color used for the progress is #4caf50
+
+The Progress structure contains to <div> elements.
+The parent .progress-bar and the child div.progress.
+
+If you aren't familiar with animations in CSS. This is a good read
+
+NOTE: This is a self assessed lab.
+There are no test cases available for this exercise lab.
+You would have to manually check the challenges when you're done.
+
+Challenges:
+The progress bar animations works as shown in the design.gif
