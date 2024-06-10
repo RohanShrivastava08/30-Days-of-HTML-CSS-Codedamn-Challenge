@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Position Property Lab</title>
+		<style>
+			/* Write your CSS here */
+			#container {
+				width: 300px;
+				height: 300px;
+				border: 1px solid black;
+				position: relative; /* Needed for absolute positioning of children */
+			}
+
+			.box {
+				width: 50px;
+				height: 50px;
+			}
+
+			#static-box {
+				background-color: blue;
+			}
+
+			#relative-box {
+				background-color: green;
+				position: relative;
+				top: 20px;
+				left: 20px;
+			}
+
+			#absolute-box {
+				background-color: red;
+				position: absolute;
+				top: 220px;
+				left: 20px;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="container">
+			<!-- Create and style your divs here -->
+			<div id="static-box" class="box"></div>
+			<div id="relative-box" class="box"></div>
+			<div id="absolute-box" class="box"></div>
+		</div>
+	</body>
+</html>
